@@ -9,4 +9,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>Rabbit Utils</name>
+    <url>https://github.com/ProgrammerRabbit/rabbit-utils</url>
+
 </project>
