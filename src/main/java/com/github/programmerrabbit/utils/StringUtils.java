@@ -8,7 +8,7 @@ public class StringUtils {
         return string == null || string.length() == 0;
     }
 
-    public static boolean isNullOrEmptyIgnoreCase(String string) {
+    public static boolean isNullOrEmptyWithTrim(String string) {
         return string == null || string.trim().length() == 0;
     }
 }

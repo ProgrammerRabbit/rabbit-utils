@@ -13,7 +13,7 @@ public class StringUtilsTest {
         Assert.isTrue(StringUtils.isNullOrEmpty(""));
         Assert.isTrue(StringUtils.isNullOrEmpty(null));
         Assert.isTrue(!StringUtils.isNullOrEmpty("  "));
-        Assert.isTrue(StringUtils.isNullOrEmptyIgnoreCase("  "));
+        Assert.isTrue(StringUtils.isNullOrEmptyWithTrim("  "));
     }
 
     public static void main(String[] args) {
