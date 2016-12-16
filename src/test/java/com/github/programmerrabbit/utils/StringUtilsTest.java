@@ -12,6 +12,8 @@ public class StringUtilsTest {
     public void testStringUtils() {
         Assert.isTrue(StringUtils.isNullOrEmpty(""));
         Assert.isTrue(StringUtils.isNullOrEmpty(null));
+        Assert.isTrue(!StringUtils.isNullOrEmpty("  "));
+        Assert.isTrue(StringUtils.isNullOrEmptyIgnoreCase("  "));
     }
 
     public static void main(String[] args) {
