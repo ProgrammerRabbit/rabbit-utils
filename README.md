@@ -1,8 +1,6 @@
 # rabbit-utils
-##### HOW TO USE
-
-1. Maven
-
+### HOW TO USE
+##### Maven
 - Add the JitPack repository
 ```xml
 <repositories>
@@ -20,8 +18,7 @@
     <version>-df59abe3d8-1</version>
 </dependency>
 ```
-2. Jar
-
+##### Jar
 ```
 rabbit-utils--df59abe3d8-1.jar
 ```
