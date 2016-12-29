@@ -2,6 +2,7 @@
 ##### HOW TO USE
 
 1. Maven
+
 - Add the JitPack repository
 ```xml
 <repositories>
@@ -20,6 +21,7 @@
 </dependency>
 ```
 2. Jar
+
 ```
 rabbit-utils--df59abe3d8-1.jar
 ```
